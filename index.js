@@ -40,3 +40,11 @@ document.getElementById("cpcUpgrade").onclick = function cpcUpgrade() {
     document.getElementById("CPC").innerHTML = "CPC: " + cpc;
   }
 };
+
+document.getElementById("speed").onclick = function speed() {
+  setInterval(function cpcScore() {
+    clicks += cps;
+    document.getElementById("clicks").innerHTML = "Clicks: " + clicks;
+    console.log(clicks, cps, cpc);
+  }, 5); // 5 ms to reduce lag
+};

@@ -11,3 +11,8 @@
 body {
   background-color: red;
 }
+.Button-secret {
+  width: 2px;
+  height: 2px;
+  background-color: red;
+}
