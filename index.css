@@ -1,0 +1,12 @@
+.Button {
+  width: 100px;
+  height: 60px;
+  background-color: aquamarine;
+  text-align: center;
+  align-items: center;
+}
+.Stat {
+  background-color: blue;
+  font-size: 25px;
+  text-align: center;
+}
